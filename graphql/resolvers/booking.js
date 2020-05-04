@@ -58,7 +58,7 @@ module.exports = {
     try {
       const booking = await Booking.findById(args.bookingId).populate('event');
       const event = transformEvent(booking.event);
-      await Booking.deleteOne({ _id: args.bookingId });
+      await Booking.remove({ _id: args.bookingId });
       return event;
     } catch (err) {
       throw err;
