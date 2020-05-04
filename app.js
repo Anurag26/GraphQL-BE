@@ -32,12 +32,9 @@ app.use(
   })
 );
 
-mongoose
-  .connect(
-    `mongodb://localhost:27017/graphql`
-  )
+mongoose.connect(`mongodb+srv://root:rootroot@graphql-lgjq4.mongodb.net/graphql?retryWrites=true&w=majority`)
   .then(() => {
-    app.listen(3000);
+    app.listen(8000);
   })
   .catch(err => {
     console.log(err);
