@@ -49,4 +49,4 @@ npm start
 
 
 
-This project was created with the youtube course of Academind and certain aspects of a full stack projects could be missing as the purpose of this project was purely an introduction to GraphQL and not build a full functional application.
+This project was created as a side project and certain aspects of a full stack projects could be missing as the purpose of this project was purely an introduction to GraphQL and not build a full functional application.
