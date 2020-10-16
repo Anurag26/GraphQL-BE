@@ -42,12 +42,22 @@ Images of the application:
 
 Install all dependencies
 ```sh
-npm install
+npm install 
 ```
 
 Run the server
 ```sh
 npm start
+```
+
+Install all dependencies
+```sh
+yarn add 
+```
+
+Run the server
+```sh
+yarn start
 ```
 
 
